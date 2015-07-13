@@ -1,0 +1,9 @@
+.bug-list {
+  table-layout: fixed;
+}
+
+.bug-list td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
