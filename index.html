@@ -23,6 +23,7 @@
   <script src="js/bz.js"></script>
   <script src="js/string.js"></script>
   <script src="js/popover.js"></script>
+  <script src="js/tooltip.js"></script>
   <script src="js/tabs.js"></script>
   <script src="js/color.js"></script>
   <script src="js/app.js"></script>
@@ -35,12 +36,12 @@
       <a class="navbar-brand">Foxfooding</a>
     </div>
     <div class="container-fluid">
-      <ul class="nav navbar-nav" role="tablist">
+      <ul class="nav navbar-nav nav-pills" role="tablist">
         <li role="presentation" class="active">
           <a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a>
         </li>
         <li role="presentation">
-          <a href="#bugs" aria-controls="bugs" role="tab" data-toggle="tab">Bugs</a>
+          <a href="#bugs" aria-controls="bugs" role="tab" data-toggle="tab">Defects</a>
         </li>
         <li role="presentation">
           <a href="#help" aria-controls="bugs" role="tab" data-toggle="tab">Help</a>
@@ -48,10 +49,10 @@
       </ul>
       <ul class="nav navbar-nav navbar-left">
         <li role="presentation">
-          <a data-toggle="tooltip" title="Add the 'foxfood' keyword to your bug
-            for both bugs and features. Add the 'feature' keyword for
-            features." data-placement="bottom">
-            <span class="badge">?</span> Bug not showing up here?
+          <a id="bug-keywords" data-toggle="tooltip" title="Add the 'feature'
+             and 'foxfood' keywords to your feature bugs."
+             data-placement="bottom">
+            <span class="label label-danger">?</span> Bug not showing up here?
           </a>
         </li>
       </ul>

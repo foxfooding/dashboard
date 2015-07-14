@@ -6,3 +6,11 @@ body {
   margin-top: 10px;
   margin-right: 10px;
 }
+
+.nav-pills > li.active > a {
+  color: #fff !important;
+  background-color: #337AB7 !important;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
