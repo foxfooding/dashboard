@@ -5,11 +5,6 @@ var bugs = $('#bugs');
 
 var render = function(params) {
   var elements = '';
-  // XXX/drs: Remove when 'votes' API glue lands.
-  //params.bugs.forEach(function(bug) {
-  //  bug.votes = Math.round(Math.random() * 100);
-  //});
-
   var maxVotes = 0;
   params.bugs.forEach(function(bug) {
     if (bug.votes > maxVotes) {

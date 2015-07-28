@@ -14,3 +14,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.navbar-right .btn-group {
+  margin-right: 1rem;
+  margin-top: -2px;
+}
